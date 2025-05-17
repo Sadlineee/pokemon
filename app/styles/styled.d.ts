@@ -12,6 +12,7 @@ declare module 'styled-components' {
       large: string
       medium: string
       small: string
+      extraSmall: string
     }
   }
 }

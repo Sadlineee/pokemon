@@ -6,9 +6,10 @@ export const theme = {
   },
     
   media: {
-    extraLarge: '(min-width: 1024px) and (max-width: 1279px)', 
-    large: '(min-width: 768px) and (max-width: 1023px)', 
-    medium: '(min-width: 600px) and (max-width: 767px)', 
-    small: '(max-width: 599px)'
+    extraLarge: '(min-width: 1280px) and (max-width: 1535px)',
+    large: '(min-width: 1024px) and (max-width: 1279px)', 
+    medium: '(min-width: 768px) and (max-width: 1023px)', 
+    small: '(min-width: 600px) and (max-width: 767px)', 
+    extraSmall: '(max-width: 599px)'
   }
 }

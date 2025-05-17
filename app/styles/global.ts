@@ -11,15 +11,15 @@ export default createGlobalStyle`
   html {
     font-size: 16px;
 
-    @media ${({ theme }) => theme.media.extraLarge} {
+    @media ${({ theme }) => theme.media.large} {
       font-size: 14px;
     }
 
-    @media ${({ theme }) => theme.media.large}, ${({ theme }) => theme.media.medium} {
+    @media ${({ theme }) => theme.media.medium}, ${({ theme }) => theme.media.small} {
       font-size: 12px;
     }
 
-    @media ${({ theme }) => theme.media.small} {
+    @media ${({ theme }) => theme.media.extraSmall} {
       font-size: 10px;
     }
   }

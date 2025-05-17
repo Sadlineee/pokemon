@@ -6,15 +6,15 @@ export const TableBox = styled.article`
   gap: 10px;
   width: 100%;
 
-  @media ${({ theme }) => theme.media.extraLarge} {
+  @media ${({ theme }) => theme.media.extraLarge}, ${({ theme }) => theme.media.large} {
     grid-template-columns: repeat(4, 1fr);
   }
 
-  @media ${({ theme }) => theme.media.large}, ${({ theme }) => theme.media.medium} {
+  @media ${({ theme }) => theme.media.medium}, ${({ theme }) => theme.media.small} {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  @media ${({ theme }) => theme.media.small} {
+  @media ${({ theme }) => theme.media.extraSmall} {
     grid-template-columns: repeat(2, 1fr);
   }
 `
