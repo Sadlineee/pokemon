@@ -6,7 +6,7 @@ export const HomePage = styled.main`
   align-items: center;
   padding: 0 10rem;
 
-  @media ${({ theme }) => theme.media.large}, ${({ theme }) => theme.media.medium} {
+  @media ${({ theme }) => theme.media.extraLarge}, ${({ theme }) => theme.media.large}, ${({ theme }) => theme.media.medium} {
     padding: 0 5rem;
   }
 
