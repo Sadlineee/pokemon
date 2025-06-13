@@ -5,6 +5,6 @@ export const FooterBox = styled.footer`
   justify-content: center;
   align-items: center;
   height: 10rem;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   color: ${({ theme }) => theme.colors.white};
 `
