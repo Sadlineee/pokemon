@@ -1,0 +1,5 @@
+export { default as Header } from './ui/Header'
+export { default as Footer } from './ui/Footer'
+export { default as Table } from './Table'
+export { default as Pagination } from './Pagination'
+export { default as Loader } from './Loader'
