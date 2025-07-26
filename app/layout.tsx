@@ -1,26 +1,25 @@
-import Head from 'next/head'
 import { Metadata } from 'next'
 import { Styled, Theme } from '@/lib'
 import { ProviderProps } from '@/types/ProviderProps'
 import { jersey_15 } from '@/fonts/fonts'
 
 export const metadata: Metadata = {
-  title: 'pokemon'
+  title: 'pokemon',
+  icons: {
+    icon: '/favicon.ico',
+  }
 }
 
 export default function RootLayout({ children }: Readonly<ProviderProps>) {
   return (
-    <Theme>
-      <Styled>
-        <html>
-          <Head>
-            <link rel='icon' href='/favicon.ico' sizes='any' />
-          </Head>
-          <body className={jersey_15.className}>
+    <html>
+      <body className={jersey_15.className}>
+        <Theme>
+          <Styled>
             {children}
-          </body>
-        </html>
-      </Styled>
-    </Theme>
+          </Styled>
+        </Theme>
+      </body>
+    </html>
   )
 }
