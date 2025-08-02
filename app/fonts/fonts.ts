@@ -1,4 +1,4 @@
-import { Jersey_15, Oxanium, Staatliches } from 'next/font/google'
+import { Jersey_15, Oxanium } from 'next/font/google'
  
 export const oxanium = Oxanium({
   subsets: ['latin']
